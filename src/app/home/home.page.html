@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+  Área Do Trapezio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src ="https://static.todamateria.com.br/upload/57/86/578693bda3fbd-trapezio.jpg"></ion-img>
+  <ion-input [(ngModel)]="basemenor">Base menor:</ion-input>
+  <ion-input [(ngModel)]="basemaior">Base maior:</ion-input>
+  <ion-input [(ngModel)]="altura">Altura:</ion-input>
+  <ion-button expand="full" (click)="calcular()">CALCULAR</ion-button>
+  {{ resultado }}
+</ion-content>
