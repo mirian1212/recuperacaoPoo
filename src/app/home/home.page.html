@@ -1,16 +1,14 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-  Área Do Trapezio
+  Área do Circulo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-img src ="https://static.todamateria.com.br/upload/57/86/578693bda3fbd-trapezio.jpg"></ion-img>
-  <ion-input [(ngModel)]="basemenor">Base menor:</ion-input>
-  <ion-input [(ngModel)]="basemaior">Base maior:</ion-input>
-  <ion-input [(ngModel)]="altura">Altura:</ion-input>
-  <ion-button expand="full" (click)="calcular()">CALCULAR</ion-button>
-  {{ resultado }}
+  <ion-img src ="https://www.estudopratico.com.br/wp-content/uploads/2014/11/area-de-uma-circunferencia.png"></ion-img>
+  <ion-input [(ngModel)]="raio">De o valor do raio:</ion-input>
+  <ion-button expand="full" (click)="calcular()">calcular</ion-button>
+  {{ area }}
 </ion-content>
